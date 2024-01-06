@@ -1,0 +1,587 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url("Raleway-VariableFont_wght.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+
+.header-container {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  height: 64px;
+  padding-right: 22px;
+  padding-left: 22px;
+  background: rgba(203, 184, 157, 0.05);
+  border-radius: 16px;
+  font: 400 18px Raleway;
+}
+/*
+.home-title {
+  box-sizing: border-box;
+  flex: 1 0 67px;
+  padding: 0;
+  margin: 0;
+  margin-right: 20px;
+  font: 700 18px Raleway;
+  color: rgba(166, 111, 73, 1);
+  text-align: center;
+}
+.introduction-section {
+  box-sizing: border-box;
+  display: flex;
+  flex: 1 0 344px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  height: 64px;
+  margin-right: 7px;
+}
+.intro-title {
+  box-sizing: border-box;
+  flex: 1 0 100px;
+  padding: 0;
+  margin: 0;
+  font: 400 18px Raleway;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+}
+.intro-experience {
+  box-sizing: border-box;
+  flex: 1 0 175px;
+  padding: 0;
+  margin: 0;
+  margin-left: -16px;
+  font: 400 18px Raleway;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+}
+.intro-experience-education {
+  box-sizing: border-box;
+  flex: 1 0 116px;
+  padding: 0;
+  margin: 0;
+  margin-left: -31px;
+  font: 400 18px Raleway;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+}
+.home-page-skills {
+  box-sizing: border-box;
+  flex: 1 0 51px;
+  padding: 0;
+  margin: 0;
+  margin-right: 14px;
+  font: 400 18px Raleway;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+}
+.home-page-contacts {
+  box-sizing: border-box;
+  flex: 1 0 88px;
+  padding: 0;
+  margin: 0;
+  font: 400 18px Raleway;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+}*/
+
+
+#first-section {
+    margin-top: 200px;
+}
+.rectangle {
+    width: 160px;
+    height: 45px;
+    flex-shrink: 0;
+
+    border-radius: 16px;
+    background: rgba(195, 152, 130, 0.10);
+}
+
+.text {
+    display: flex;
+    width: 140px;
+    height: 36px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+
+    color: #000;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    padding-top: 5px;
+}
+
+.maria {
+    width: 411px;
+    height: 120px;
+    flex-shrink: 0;
+
+    color: #786D5D;
+    font-family: Raleway;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+}
+
+.hr-manager {
+    color: rgba(0, 0, 0, 0.50);
+    text-align: justify;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    display: flex;
+    width: 411.33px;
+    height: 37px;
+    transform: rotate(-0.033deg);
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+
+.circle {
+    width: 492.658px;
+    height: 484.446px;
+    flex-shrink: 0;
+
+    border-radius: 492.658px;
+    background: #CBB89D;
+    box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.50);
+}
+
+.photo-ai {
+    width: 406px;
+    height: 480px;
+    flex-shrink: 0;
+
+    border-radius: 175px;
+    border: 5px solid #CBB89D;
+    background: url('ai-4.png');
+}
+
+.cv {
+    color: rgba(0, 0, 0, 0.50);
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.cv-text{
+    color: #D08B5B;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+#second-section {
+    margin-top: 140px;
+}
+
+
+.photo {
+    width: 529px;
+    height: 705.78px;
+    flex-shrink: 0;
+
+
+    background: url('photo.png');
+}
+
+.light-text {
+    color: rgba(0, 0, 0, 0.50);
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 138.889% */
+}
+
+
+#third-section {
+    margin-top: 100px;
+}
+
+
+.experience {
+    color: #786D5D;
+    font-family: Raleway;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+    margin-top: 30px;
+}
+
+#fourth-section{
+    margin-top: 60px;
+}
+
+
+.border-brown {
+    width: 580px;
+    height: 350px;
+    flex-shrink: 0;
+
+    background-color: rgba(195, 152, 130, 0.10);
+    border-radius: 20px;
+}
+
+.bold-text {
+    color: #000;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.brown-text {
+    color: #A37A2A;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+.brown-text-second{
+    color: #A37A2A;
+    text-align: right;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.border-brown-light {
+    width: 580px;
+    height: 155px;
+    flex-shrink: 0;
+
+    border-radius: 16px;
+    border: 1px solid rgba(54, 54, 54, 0.50);
+}
+
+#fifth-section{
+    margin-top: 150px;
+}
+
+#sixth-section {
+    margin-top: 50px;
+}
+
+#seventh-section {
+    margin-top: 100px;
+}
+
+.telegram {
+    color: #A37A2A;
+
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    border-radius: 16px;
+    border: 1px solid #8C6B2B;
+
+    width: 246px;
+    height: 44.546px;
+    flex-shrink: 0;
+
+}
+
+.telegram:hover {
+    color: #A37A2A;
+    text-decoration: none;
+}
+.email {
+    color: #A37A2A;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+#eight-section {
+    margin-top: 100px;
+
+    background: rgba(54, 54, 54, 0.10);
+
+    width: 100%;
+    height: 88px;
+    flex-shrink: 0;
+}
+
+
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: rgba(195, 152, 130, 0.90);
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+
+@font-face {
+    font-family: 'Raleway';
+    src: url("Raleway-VariableFont_wght.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+/* Add the following media query for smaller screens */
+
+
+@media (max-width: 768px) {
+
+    .introduction-section {
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+
+    #first-section {
+        margin-top: 100px;
+    }
+
+    .rectangle {
+        width: 100%;
+    }
+
+
+    .maria {
+        width: 100%;
+        text-align: center;
+    }
+
+    .circle {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .photo-ai, .photo {
+        width: 100%;
+        border-radius: 50%;
+    }
+
+    .cv-text {
+        font-size: 14px;
+    }
+
+    #second-section {
+        margin-top: 50px;
+    }
+
+    .experience {
+        font-size: 32px;
+    }
+
+    #third-section, #fourth-section, #fifth-section, #sixth-section, #seventh-section {
+        margin-top: 50px;
+    }
+
+    .border-brown, .border-brown-light {
+        width: 100%;
+    }
+
+    .bold-text, .brown-text, .brown-text-second {
+        text-align: center;
+    }
+
+    #eighth-section {
+        margin-top: 50px;
+    }
+
+}
+
+
+/* Add the following media query for even smaller screens */
+@media (max-width: 576px) {
+    .navbar-collapse {
+        background-color: #fff;
+        position: absolute;
+        width: 100%;
+        z-index: 999;
+        top: 64px;
+        left: 0;
+        display: none;
+    }
+
+    .navbar-toggler {
+        display: block;
+    }
+
+    .navbar-toggler:focus,
+    .navbar-toggler:active,
+    .navbar-toggler-icon:focus,
+    .navbar-toggler-icon:active {
+        outline: none;
+        box-shadow: none;
+    }
+
+    .navbar-collapse.collapsing {
+        display: block;
+        flex: 1;
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav-item {
+        width: 100%;
+        text-align: center;
+    }
+
+    .rectangle {
+        width: 100%;
+    }
+}
+
+
+/* iPhone 13 Media Query */
+@media (max-width: 390px) {
+    .header-container {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 10px;
+    }
+
+    .navbar-brand {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    .navbar-collapse {
+        background-color: #fff;
+        position: absolute;
+        width: 100%;
+        z-index: 999;
+        top: 64px;
+        left: 0;
+        display: none;
+    }
+
+    .navbar-toggler {
+        display: block;
+    }
+
+    .navbar-toggler:focus,
+    .navbar-toggler:active,
+    .navbar-toggler-icon:focus,
+    .navbar-toggler-icon:active {
+        outline: none;
+        box-shadow: none;
+    }
+
+    .navbar-collapse.collapsing {
+        display: block;
+        flex: 1;
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav-item {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    .rectangle {
+        width: 100%;
+    }
+
+    .maria {
+        width: 100%;
+        text-align: center;
+    }
+
+    .circle {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .photo-ai, .photo {
+        width: 100%;
+        border-radius: 50%;
+    }
+
+    .cv-text {
+        font-size: 14px;
+    }
+
+    #second-section {
+        margin-top: 50px;
+    }
+
+    .experience {
+        font-size: 32px;
+    }
+
+    #third-section, #fourth-section, #fifth-section, #sixth-section, #seventh-section {
+        margin-top: 30px;
+    }
+
+    .border-brown, .border-brown-light {
+        width: 100%;
+    }
+
+    .bold-text, .brown-text, .brown-text-second {
+        text-align: center;
+    }
+
+    #eighth-section {
+        margin-top: 50px;
+    }
+
+    .telegram {
+        margin-bottom: 30px;
+    }
+
+    .email {
+        margin-top: 20px;
+    }
+}
